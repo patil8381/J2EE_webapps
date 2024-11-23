@@ -1,6 +1,10 @@
 git pull this repo, and move the "university" folder inside the webapps folder present in tomcat server version-10
 c:\tomcat10\webapps\university
 now start the tomcat server using cmd prompt in c:\tomcat10\bin> startup.bat(Enter)
+make sure you have added the tomcat path and jdk path in the startup.bat file, if not then 
+set CATALINE_HOME=c:\tomcat10
+set JAVA_HOME=c:\jdk23
+add the above 2 lines in startup.bat file after echo@off
 run the startup.bat file ( now the tomcat server is running ) and then
 
 search "localhost:8080/university/SignUpForm.jsp" in your browser
