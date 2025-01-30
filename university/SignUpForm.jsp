@@ -4,15 +4,15 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<script src='/university/assets/js/SignUpForm.js?asdf=6'></script>
-<link rel='stylesheet' type='text/css' href='/university/assets/css/styles.css?sdf=3' />
+<script src='/test/assets/js/SignUpForm.js?asdf=6'></script>
+<link rel='stylesheet' type='text/css' href='/test/assets/css/styles.css?sdf=3' />
 </head>
 <body>
 <h2>Create Account </h2>
 <div class='formError'> 
 <jsp:getProperty name='errorBean' property='error' />
 </div>
-<form id='signUpForm' action='/university/SignUp.jsp' method='post' onsubmit='return validateForm(this)'>
+<form id='signUpForm' action='/test/SignUp.jsp' method='post' onsubmit='return validateForm(this)'>
 
 First Name <input type='text' id='firstName' name='firstName' value='${userBean.firstName}'>
 <br>
@@ -41,5 +41,13 @@ confirm Password <input type='password' id='confirmPassword' name='confirmPasswo
 <button type='submit'>Create Account</button>
 
 </form>
+
+</br>
+
+<form id='loginForm' action='/test/LoginForm.jsp' method='post'>
+<button>Login</button>
+</form>
+
+
 </body>
 </html>

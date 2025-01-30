@@ -6,7 +6,7 @@
 Welcome ${userBean.firstName} ${userBean.lastName} <br/>
 ${messageBean.message} 
 
-<form id='LoginForm' action='/university/LoginForm.jsp' >
+<form id='LoginForm' action='/test/LoginForm.jsp' >
 <button type='submit'>Login</button>
 </form>
 </body>
