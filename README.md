@@ -1,5 +1,20 @@
-git pull this repo, and move the "university" folder inside the webapps folder present in tomcat server version-10
-c:\tomcat10\webapps\university
+PREREQUISITE 
+apache tomcat 10
+MySQL community server
+Jdk23 or above
+install MySQL and jdk23, COPY jdk23/bin to c:/jdk23/bin
+set environment variables
+variable name = "JAVA_HOME" and
+variable value = "c:\jdk23" in user variable
+and same in System variable Also set the MySQL path in environment variable inside PATH variable in System variable
+repo, and move the "university" folder inside the webapps folder present in tomcat server version-10
+Open cmd and clone this
+c:\\tomcat10\\webapps\\university
+now open cmd go to c:/tomcat10/webapps/university
+rename folder as "university" -> "test"
+now open MySQL cli/workbench and login as root user and
+run the university.sql script
+now database and user is created with privileges and and tables created
 
 make sure you have added the tomcat path and jdk path in the startup.bat file, if not then 
 set CATALINE_HOME=c:\tomcat10
