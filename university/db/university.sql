@@ -1,3 +1,7 @@
+drop database if exists university_db;
+create database university_db;
+create user 'university'@'localhost' identified by 'university'@'localhost';
+grant all privileges on university.* to 'university'@'localhost';
 use university_db;
 drop table if exists applicant_account_active_status;
 drop table if exists applicant_account;
@@ -19,4 +23,5 @@ code_sent_to_mobile_number char(6) not null,
 email_verification_status char(1) not null,
 mobile_number_verification_status char(1) not null,
 foreign key (applicant_id) references applicant_account(applicant_id)
+
 );
