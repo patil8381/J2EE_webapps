@@ -146,11 +146,11 @@ body {
             <p class="title">You Have Logged Out</p>
             <p class="body">Your session has been successfully terminated.</p>
         </div>
-        <button class="close-btn" onclick="closeNotification()">×</button>
+        <button class="close-btn" onclick="closeNotification()">x</button>
     </div>
 
     <div class="placeholder-content">
-        <h1>Thank You for Visiting 👋</h1>
+        <h1>Thank You for Visiting!</h1>
         <p>Please <a href="/test/LoginForm.jsp">login again</a> to access the University Portal.</p>
     </div>
 
@@ -192,3 +192,4 @@ body {
     </script>
 </body>
 </html>
+
