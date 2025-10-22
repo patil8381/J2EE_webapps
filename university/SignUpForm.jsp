@@ -200,7 +200,7 @@ button[type='submit']:hover {
             <p id='error-message' class='error-message'></p>
 
             <div class='form-footer'>
-                <p>Already registered? <a href='/test/newLoginForm.jsp'>Login here</a></p>
+                <p>Already registered? <a href='/test/LoginForm.jsp'>Login here</a></p>
             </div>
         </form>
         
@@ -208,4 +208,5 @@ button[type='submit']:hover {
 
     
 </body>
+
 </html>
