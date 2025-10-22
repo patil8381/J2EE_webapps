@@ -147,11 +147,10 @@ button[type='submit']:hover {
 </head>
 <body>
 
-    <div class='formError'> 
-
+<div class='formError'> 
 <jsp:getProperty name='errorBean' property='error' />
 </div>
-
+<br>
 
     <div class='container'>
         <h2>University Enrollment</h2>
@@ -210,3 +209,4 @@ button[type='submit']:hover {
 </body>
 
 </html>
+
