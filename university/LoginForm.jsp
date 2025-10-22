@@ -174,12 +174,13 @@ button[type="submit"]:hover {
             <button type="submit">Log In</button>
             
             <div class="form-footer">
-                <a href="/test/newSignUpForm.jsp">Forgot Password?</a>
+                <a href="/test/SignUpForm.jsp">Forgot Password?</a>
                 <span>|</span>
-                <a href="/test/newSignUpForm.jsp">Need an Account? Register</a>
+                <a href="/test/SignUpForm.jsp">Need an Account? Register</a>
             </div>
         </form>
     </div>
 
 </body>
+
 </html>
