@@ -105,7 +105,7 @@ button:hover {
 
 <br>
 
-    <form id="logout" action="/test/logout.jsp" method="post">
+    <form id="logout" action="/test/Logout.jsp" method="post">
     <button type="submit">Logout</button>
    </form>
 
@@ -113,3 +113,4 @@ button:hover {
   
 </body>
 </html>
+
